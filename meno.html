@@ -1,1 +1,411 @@
-hello world!
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title><-BlogAndPostTitle-></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="content-language" content="fa">
+
+    <meta name="description" content="<-BlogMetaDescription->">
+
+    <meta name="generator" content="blogfa.com">
+
+    <meta property="og:title" content="<-AutoPageTitle->">
+
+    <meta property="og:site_name" content="<-BlogTitle->">
+
+    <meta property="og:description" content="<-BlogMetaDescription->">
+
+    <meta name="twitter:title" content="<-AutoPageTitle->">
+
+    <meta name="twitter:description" content="<-BlogMetaDescription->">
+
+    <link rel="alternate" type="application/rss+xml" title="<-BlogTitle->" href="<-BlogXmlLink->"/>
+
+    <script src="http://theme.blogfa.com/public/theme.1.2.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        try {
+
+            cmt_caption[0] = "نظرات";
+
+            cmt_caption[1] = "نظر بدهيد";
+
+            cmt_caption[2] = "يک نظر";
+
+            cmt_caption[3] = "نظر";
+
+            cmt_blogid = "<-BlogId->";
+
+        } catch (e) {
+
+        }
+
+    </script>
+
+<link href="http://theme.blogfa.com/raha/style.css" type="text/css" rel="stylesheet">
+
+<!--[if lt IE 8]>
+
+  <link href="http://theme.blogfa.com/raha/fix-ie.css" type="text/css" rel="stylesheet">
+
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="header">
+
+    <a href="<-BlogUrl->" title="<-BlogTitle->"><h1 class="blog-title"><-BlogTitle-></h1></a>
+
+    <h2 class="blog-desctiption"><-BlogDescription-></h2>
+
+    <div class="menu">
+
+        <ul>
+
+            <li>
+
+                <a title="<-BlogTitle->" href="<-BlogUrl->">صفحه اصلی</a>
+
+            </li>
+
+            <BlogProfileLinkBlock>
+
+                <li>
+
+                    <a title="پروفایل مدیریت" href="<-BlogProfileLink->">پروفایل مدیر</a>
+
+                </li>
+
+            </BlogProfileLinkBlock>
+
+            <BlogEmailBlock>
+
+                <li>
+
+                    <a title="ارسال ایمیل به مدیر" href="mailto:<-BlogEmail->"> ایمیل</a>
+
+                </li>
+
+            </BlogEmailBlock>
+
+            <li>
+
+                <a title="آرشیو وبلاگ" href="<-BlogArchiveLink->">آرشیو وبلاگ</a>
+
+            </li>
+
+            <li>
+
+                <a title="عناوین نوشته ها" href="/posts/">عناوین نوشته ها</a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<div id="wrap">
+
+    <div id="main">
+
+        <BLOGFA>
+
+            <div class="post">
+
+                <div class="title">
+
+                    <a title="<-PostTitle->" href="<-PostLink->"><h3><-PostTitle-></h3></a>
+
+                </div>
+
+                <div class="meta">
+
+                    <-PostDate-> ساعت <-PostTime-> توسط <-PostAuthor->
+
+                    <BlogComment> |&nbsp;<span comment-for="<-PostId->"></span></BlogComment>
+
+                </div>
+
+                <div class="content">
+
+                    <-PostContent->
+
+                </div>
+
+                <BlogExtendedPost>
+
+                    <div class="text-left">
+
+                        <a class="read-more" href="<-PostLink->" title="<-PostTitle->">
+
+                            ادامه مطلب
+
+                        </a>
+
+                    </div>
+
+                </BlogExtendedPost>
+
+                <BlogPostTagsBlock>
+
+                <span class="tag">
+
+                    برچسب ها :
+
+                    <BlogPostTags separator=" ، ">
+
+                        <a title="<-TagName->" href="<-TagLink->"><h4><-TagName-></h4></a>
+
+                    </BlogPostTags>
+
+                </span>
+
+                </BlogPostTagsBlock>
+
+            </div>
+
+        </BLOGFA>
+
+        <div class="pagin">
+
+            <BlogPreviousPageBlock>
+
+                <a title="قبلی" href="<-BlogPreviousPageLink->">مطالب جدید تر</a>
+
+            </BlogPreviousPageBlock>
+
+            <BlogNextPageBlock>
+
+                <a title="بعدی" href="<-BlogNextPageLink->">مطالب قدیمی تر</a>
+
+            </BlogNextPageBlock>
+
+        </div>
+
+    </div>
+
+    <div id="side">
+
+        <BlogProfile>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>مشخصات</h5>
+
+                </div>
+
+                <div class="content">
+
+                    <BlogPhoto>
+
+                        <img class="avatar" title="<-BlogTitle->" alt="<-BlogTitle->" src="<-BlogPhotoLink->">
+
+                    </BlogPhoto>
+
+                    <-BlogAbout->
+
+                </div>
+
+            </div>
+
+        </BlogProfile>
+
+        <BlogCategoriesBlock>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>موضوعات وب</h5>
+
+                </div>
+
+                <div class="content list">
+
+                    <ul>
+
+                        <BlogCategories>
+
+                            <li><a title="<-CategoryName->" href="<-CategoryLink->"><-CategoryName-></a></li>
+
+                        </BlogCategories>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </BlogCategoriesBlock>
+
+        <BlogLinksBlock>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>پیوندها</h5>
+
+                </div>
+
+                <div class="content list">
+
+                    <ul>
+
+                        <BlogLinks>
+
+                            <li><a href="<-LinkUrl->" target="_blank" title="<-LinkTitle->"><-LinkTitle-></a></li>
+
+                        </BlogLinks>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </BlogLinksBlock>
+
+        <BlogLinkDumpBlock>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>پیوندهای روزانه</h5>
+
+                </div>
+
+                <div class="content list">
+
+                    <ul>
+
+                        <BlogLinkDump>
+
+                            <li><a href="<-LinkUrl->" target="_blank" title="<-LinkDescription->"><-LinkTitle-></a></li>
+
+                        </BlogLinkDump>
+
+                        <li>
+
+                            <a href="/links" onclick="return openlinks();" title="تمام پیوندهای روزانه">
+
+                                آرشیو پیوندهای روزانه
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </BlogLinkDumpBlock>
+
+        <BlogArchiveBlock>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>آرشیو وب</h5>
+
+                </div>
+
+                <div class="content list">
+
+                    <ul>
+
+                        <BlogArchive>
+
+                            <li><a href="<-ArchiveLink->" title="<-ArchiveTitle->"><-ArchiveTitle-></a></li>
+
+                        </BlogArchive>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </BlogArchiveBlock>
+
+        <BlogTagsBlock>
+
+            <div class="side-block">
+
+                <div class="title">
+
+                    <h5>برچسب ها</h5>
+
+                </div>
+
+                <div class="content cloud">
+
+                    <ul>
+
+                        <BlogTags>
+
+                            <li>
+
+                                <a href="<-TagLink->" title="<-TagName->"><-TagName-></a>
+
+                            </li>
+
+                        </BlogTags>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </BlogTagsBlock>
+
+        <div class="side-block">
+
+            <div class="content text-center">
+
+                <-BlogCustomHtml->
+
+                <p>
+
+                    <a target="_blank" title="Blogfa" href="http://blogfa.com">B L O G F A . C O M</a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="footer" class="text-center">
+
+    تمامی حقوق برای <a href="<-BlogUrl->" title="<-BlogTitle->"><-BlogTitle-></a>
+
+    محفوظ است .
+
+</div>
+
+</body>
+
+</html>
